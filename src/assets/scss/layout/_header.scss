@@ -22,11 +22,16 @@
   }
 
   &--logo {
+    font-family: "Rum Raisin", sans-serif;
+    font-size: 1.5em;
     color: $text-light;
-    font-weight: 700;
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 0.025em;
     cursor: pointer;
+
+    &--text {
+      margin: 0.3em;
+    }
   }
 
   &--ham-container {
@@ -61,7 +66,7 @@
     background-color: $main;
     text-align: center;
     padding: 2em 0;
-    padding-top: 3em;
+    padding-bottom: 3em;
     position: fixed;
     left: 0;
     right: 0;
@@ -99,6 +104,7 @@
   &--ham-social {
     margin: 0 auto;
     max-width: 6em;
+    margin-top: 3em;
 
     & i {
       font-size: 2em;

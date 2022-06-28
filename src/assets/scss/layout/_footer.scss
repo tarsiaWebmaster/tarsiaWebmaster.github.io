@@ -36,6 +36,14 @@
         .fa-spotify {
           color: $spotify;
         }
+        .fa-instagram {
+          background: $instagram;
+          background-clip: text;
+          color: transparent;
+        }
+        .fa-youtube {
+          color: $youtube;
+        }
       }
     }
   }

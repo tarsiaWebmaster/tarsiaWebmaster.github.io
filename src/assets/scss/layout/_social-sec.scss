@@ -1,0 +1,41 @@
+@use "../helpers/" as *;
+
+.social-section {
+  display: flex;
+  justify-content: center;
+  gap: 1.75em;
+  padding-bottom: 0;
+
+  &--icon {
+    font-size: 2.25em;
+    color: $accent;
+    display: block;
+
+    &:hover,
+    &:focus {
+      .fa-amazon {
+        color: $amazonMusic;
+      }
+      .fa-itunes {
+        color: $appleMusic;
+      }
+      .fa-facebook {
+        color: $facebook;
+      }
+      .fa-imdb {
+        color: $imdb;
+      }
+      .fa-spotify {
+        color: $spotify;
+      }
+      .fa-instagram {
+        background: $instagram;
+        background-clip: text;
+        color: transparent;
+      }
+      .fa-youtube {
+        color: $youtube;
+      }
+    }
+  }
+}
