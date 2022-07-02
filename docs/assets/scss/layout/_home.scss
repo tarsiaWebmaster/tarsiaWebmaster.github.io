@@ -1,9 +1,0 @@
-@use "../helpers/" as *;
-
-@media screen and (min-width: 470px) {
-  .recent-works {
-    &--img {
-      max-width: 25em;
-    }
-  }
-}
