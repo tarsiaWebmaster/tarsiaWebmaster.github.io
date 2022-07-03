@@ -63,6 +63,11 @@
       }
     }
   }
+
+  &--logo {
+    max-width: 6.5em;
+    margin-bottom: 1em;
+  }
 }
 
 @media (min-width: 790px) {
