@@ -16,15 +16,6 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     let cc = window as any;
     cc.cookieconsent.initialise({
-      /*  palette: {
-        popup: {
-          background: '#164969',
-        },
-        button: {
-          background: '#ffe000',
-          text: '#164969',
-        },
-      }, */
       theme: 'classic',
       content: {
         message: this.cookieMessage,
