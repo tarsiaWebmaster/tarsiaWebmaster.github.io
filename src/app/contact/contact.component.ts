@@ -20,7 +20,7 @@ export class ContactComponent implements OnInit {
 
   // @ts-ignore
   submitForm(contactForm) {
-    const formUrl = 'https://alessandro-bencini.herokuapp.com/api/mail';
+    const formUrl = 'https://tarsia-api.herokuapp.com/api/mail';
     const data = contactForm.value;
 
     this.http.post(formUrl, data).subscribe((response) => {
