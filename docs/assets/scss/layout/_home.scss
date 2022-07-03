@@ -1,5 +1,13 @@
 @use "../helpers/" as *;
 
+.youtube {
+  position: relative;
+
+  & iframe {
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 470px) {
   .recent-works {
     &--img {

@@ -55,11 +55,18 @@ iframe {
   margin: 0 auto 2em auto;
   overflow: hidden;
   background: transparent;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 700px) {
   section {
     padding-right: 1.5em;
     padding-left: 1.5em;
+  }
+
+  iframe {
+    max-height: 40em;
+    max-width: 800px;
+    height: 28em;
   }
 }
