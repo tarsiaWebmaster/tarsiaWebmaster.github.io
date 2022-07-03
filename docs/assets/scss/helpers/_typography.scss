@@ -1,0 +1,43 @@
+@use "_colors" as *;
+
+.section-title,
+.page-title {
+  font-family: "Rum Raisin", sans-serif;
+  background: $gradient;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+
+  &::after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 1em;
+    background: $accent-light;
+    margin: 0 auto;
+    margin-top: 0.1em;
+    border-radius: 25%;
+  }
+}
+
+.page-title {
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+  font-size: 2em;
+
+  /* &::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 1.5em;
+    border-radius: 1px;
+    background-color: $dark;
+    opacity: 50%;
+    margin: 0 auto;
+    margin-top: 0.25em;
+  } */
+}
+
+.section-title {
+  font-size: 1.8em;
+}
